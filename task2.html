@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="task2.css">
+</head>
+<body>
+    
+    <div class="form-container">
+        <h2>sign up form</h2>
+        <form id="signup-form">
+            <div class="form-group">
+        <label for="name"> Name</label>
+        <input type="text" name="name" id="name"  >
+        <span class="error-message" id="error-message"></span>
+
+            </div>
+            <div class="form-group">
+                <label for="email"> email</label>
+                <input type="email" name="email" id="email"  required >
+                <span class="error-message" id="error-message"></span>
+        
+                    </div>
+                    <div class="form-group">
+                        <label for="password"> password</label>
+                        <input type="password" name="password" id="password"  required >
+                        <span class="error-message" id="error-message"></span>
+                
+                            </div>
+                            <div class="form-group">
+                                <label for="confirm-password"> confirm password</label>
+                                <input type="password" name="password" id="confirm-password"  required >
+                                <span class="error-message" id="error-message"></span>
+                        
+                                    </div>
+            <button type="submit">sign up</button>
+            
+        </form>
+    </div>
+    <script src="task2.js" ></script>
+</body>
+</html>
